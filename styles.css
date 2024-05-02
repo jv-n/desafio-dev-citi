@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #232323;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #172e81;
+  padding: 25px;
+}
+
+
+
+.img-navbar {
+  width: 80px;
+  height: 60px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.botao {
+  padding: 10px;
+  color: #8abeff;
+  text-decoration: none;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 20px;
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.foto-perfil {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  border: 10px solid #172e81;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.favorites{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.fav-item{
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+.fav-item img{
+  max-width: 200px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px  #172e81;
+}
+.fav-item h3{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+.writes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 400px;
+  text-align: justify;
+  h1 {
+    font-size: 45px;
+    color: #2148d3;
+    text-shadow: 1px 1px 2px #8abeff; 
+    
+  }
+  h2
+  {
+    font-size: 40px;
+    color: #2148d3;
+    text-align: center;
+    text-shadow: 2px 2px 4px #8abeff; 
+  
+  }
+  h3{
+    font-size:25px;
+    color: #2148d3;
+    text-align: center;
+  }
+  h4{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 18px;
+    color: #ffffff;
+  }
+  p1{
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #172e81;
+  }
+}
+
+.conteudo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#icones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
