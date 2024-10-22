@@ -87,8 +87,9 @@ main {
 .favorites{
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
+  width: 100%;
+  align-items: space-between;
+  justify-content: center;
 }
 .fav-item{
   flex: 1;
@@ -118,7 +119,8 @@ main {
   gap: 30px;
   width: 400px;
   text-align: justify;
-  h1 {
+  h1 
+  {
     font-size: 45px;
     color: #2148d3;
     text-shadow: 1px 1px 2px #8abeff; 
